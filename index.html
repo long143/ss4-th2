@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    body { font-family: Arial;}
+    #manu {
+      height: 30px;
+      padding: 0;
+      margin: 0;
+      background-color: #000000;
+      border: 1px solid #CDCDCD;
+      width: 60%;
+    }
+    #manu ul,#manu li {padding: 0;margin: 0;}
+    #manu li {
+      position: relative;
+      float: left;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    #manu li a {
+      width: 150px;
+      border-right: 1px solid #ccc;
+      margin-left: 10px;
+      height: 30px;
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      line-height: 30px;
+      background-color: black;
+      color: white;
+    }
+    #manu ul ul li a {
+      width: 200px;
+      text-align: left;
+      padding-left: 10px;
+    }
+    #manu li a:hover{background-color: red}
+    #manu ul ul {
+      position: absolute;
+    top: 30px;
+    left: 15px;
+    visibility: hidden;
+    }
+    #manu ul li:hover ul{
+      visibility: visible;
+    }
+  </style>
+</head>
+<body>
+<div id="manu">
+  <ul>
+    <li><a href="">Manchester United F.C.</a>
+      <ul>
+        <li><a href="https://vi.wikipedia.org/wiki/David_de_Gea">David de Gea</a></li>
+        <li><a href="https://vi.wikipedia.org/wiki/Harry_Maguire">Harry Maguire (lead)</a></li>
+        <li><a href="https://vi.wikipedia.org/wiki/Jadon_Sancho">Jadon Sacho</a></li>
+        <li><a href="https://vi.wikipedia.org/wiki/Marcus_Rashford">Marcus Rashford</a></li>
+        <li><a href="https://vi.wikipedia.org/wiki/Casemiro">Casemiro</a></li>
+      </ul>
+    </li>
+    <li><a href="">Manchester City F.C.</a>
+      <ul>
+        <li><a href="https://vi.wikipedia.org/wiki/%C4%B0lkay_G%C3%BCndo%C4%9Fan">İlkay Gündoğan (lead)</a></li>
+        <li><a href="https://vi.wikipedia.org/wiki/Erling_Haaland">Erling Haaland</a></li>
+        <li><a href="https://vi.wikipedia.org/wiki/Juli%C3%A1n_%C3%81lvarez">Julián Álvarez</a></li>
+        <li><a href="https://vi.wikipedia.org/wiki/Riyad_Mahrez">Riyad Mahrez</a></li>
+        <li><a href="https://vi.wikipedia.org/wiki/Phil_Foden">Phil Foden</a></li>
+      </ul>
+    </li>
+    <li><a href="https://vi.wikipedia.org/wiki/Arsenal_F.C.">Arsenal</a></li>
+    <li><a href="https://vi.wikipedia.org/wiki/Chelsea_F.C.">Chelsea</a></li>
+  </ul>
+</div>
+
+</body>
+</html>
